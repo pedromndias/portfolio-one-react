@@ -1,0 +1,58 @@
+.app {
+  text-shadow: 0 0 1px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.header{
+  padding: 30px 0;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(315deg, rgba(12,133,245,1) 0%, rgba(0,212,255,1) 100%);}
+
+.container {
+  margin: 0;
+  color: #0c85f5;
+  background-color: #F7F7F7;
+  padding: 100px 0;
+}
+
+.footer {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  background-color: #0c85f5;
+  padding: 40px 0;
+}
+
+h1 {
+  margin: 0;
+  color:#8cff00;
+}
+
+h3 {
+  text-shadow: 1px 1px 0 rgba(0,0,0,1);
+  color: #8cff00;
+  text-align: center;
+}
+
+.logo {
+  height: 2em;
+  padding: 1.5em;
+  animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header--pedro {
+  font-size: 1.2em;
+}
+
+.header--p {
+  font-weight: bold;
+  letter-spacing: 0.9px;
+}
